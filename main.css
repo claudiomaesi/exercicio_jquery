@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;;
+}
+
+body {
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e9a227;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {    
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 20px;
+    color: #281a03;
+    background-color: #fff;
+    padding: 8px;
+}
+
+form button {
+    background-color: #e9a227;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #edc73f;
+}
+
+.lista-tarefa {
+    width: 415px;
+    background-color: rgb(244, 243, 232);
+    text-align: left;    
+    padding: 10px;
+}
+
+.lista-tarefa h2 {
+    text-align: center;
+    color: #e9a227;
+    text-decoration: underline;    
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e9a227;
+    cursor: pointer;
+}
+
+.risco {
+    text-decoration: line-through;  
+  }
